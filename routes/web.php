@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('lamanLogin');
+});
+
+Route::get('/dashboard', function () {
     return view('Content.Dashboard.dashboard');
 });
